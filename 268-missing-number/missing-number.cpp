@@ -11,9 +11,11 @@ public:
         {
             XOR2=XOR2^nums[i];
             XOR1=XOR1^i;
-        }
+        }  
+        // considering first ex.
+        //ZOR1 = 1^2 after loop end
          // as i<n but we have to include n as well
-        XOR1=XOR1^n; 
+        XOR1=XOR1^n;  //  1^2^3
         return XOR1^XOR2;
     }
 };
