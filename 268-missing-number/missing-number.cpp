@@ -12,7 +12,8 @@ public:
             XOR2=XOR2^nums[i];
             XOR1=XOR1^i;
         }
-        XOR1=XOR1^n;
+         // as i<n but we have to include n as well
+        XOR1=XOR1^n; 
         return XOR1^XOR2;
     }
 };
