@@ -12,6 +12,7 @@ public:
             else return  false;
         }
     string reverseVowels(string s) {
+
         // int left=0;
         // int n=s.length();
         // int right=n-1;
@@ -57,6 +58,8 @@ public:
         // };
         // };
         // return s;
+
+        // optimized
         int i=0;
         int j=s.length()-1;
         while(i<j)
