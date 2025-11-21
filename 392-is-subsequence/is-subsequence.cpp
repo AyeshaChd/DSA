@@ -4,10 +4,7 @@ public:
         int i=0; int j=0;
         int n =s.length();
         int count=0;
-        if(s.length()==0 )
-        {
-            return true;
-        };
+       
        
 
         while(i<n && j< t.size())
@@ -22,8 +19,9 @@ public:
             {
                 j++;
             }
+            
         };
-        if(count==n)return count;
-        else return false;
+         return i == s.size();
+       
     };
 };
