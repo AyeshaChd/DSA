@@ -27,7 +27,7 @@ public:
         // return ans;
 
         // with  stack and hashmap;
-         unordered_map<int, int> mp;
+          unordered_map<int, int> mp;
     stack<int> st;
 
     for(int i=nums2.size()-1; i>=0; i--){
