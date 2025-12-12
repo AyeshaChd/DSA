@@ -2,25 +2,54 @@ class Solution {
 public:
     vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
        
-        // 
-        
-        // -----------------------------doing only using set without hasmap
-        unordered_set<int> set1(nums1.begin(), nums1.end());
-        unordered_set<int> set2(nums2.begin(), nums2.end());
-        
-        vector<int> distinct_nums1, distinct_nums2;
-        for (int num : set1) {
-            if (set2.count(num) == 0) {
-                distinct_nums1.push_back(num);
-            }
-        }
+        // unordered_map<int, int> mp1;
+        // unordered_map<int, int> mp2;
+        // vector<int>v1;
+        // vector<int>v2;
+        // unordered_set<int>s1(nums1.begin(),nums1.end());
+        // unordered_set<int>s2(nums2.begin(),nums2.end());
 
-        for (int num : set2) {
-            if (set1.count(num) == 0) {
-                distinct_nums2.push_back(num);
-            }
-        }
+        // // we are using this type of loop bcz in sets elements can't acccessed by indexing.
+        // for (int x : s1) {
 
-        return {distinct_nums1, distinct_nums2};
+        //     mp1[x]++;
+        // };
+
+        // for (int y : s2) {
+        //     mp2[y]++;
+        // };
+        // for (int x: s1) {
+        //     if (mp2.find(x) ==  mp2.end() ) {
+                
+                
+        //         v1.push_back(x);
+                
+               
+        //     };
+        // };
+        //     for (int x: s2) {
+        //         if (mp1.find(x) == mp1.end() ) {
+        //           v2.push_back(x);
+        //         };
+        //     };
+               
+        //         return {v1,v2};
+
+        // / doing it using set only
+
+        unordered_set<int>s1(nums1.begin(),nums1.end());
+        unordered_set<int>s2(nums2.begin(),nums2.end());
+     vector<int> v1,v2;
+// range based for loop is used for set bcz elements of sets cannot be accessed through indexing.
+     for(auto x: s1)
+{
+    if(s2.count(x)== 0) v1.push_back(x);
+};
+     for(auto x: s2)
+{
+    if(s1.count(x)== 0) v2.push_back(x);
+};
+return {v1,v2};
+
             };
         };
