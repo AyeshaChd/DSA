@@ -11,26 +11,42 @@
 class Solution {
 public:
     int pairSum(ListNode* head) {
-        vector<int>v;
-        ListNode* temp=head;
-        while(temp!=NULL)
-        {
-            v.push_back(temp->val);
-            temp=temp->next;
 
-        };
-        int i=0;
-        int j= v.size()-1;
-        int maximum=0;
-        int tempMAX=0;
-        while(i<j)
-        {
-            tempMAX=(v[i]+v[j]);
-            maximum=max(maximum,tempMAX);
-            i++;
-            j--;
-        };
-        return maximum;
-        
+    //    find the middle of LL
+   ListNode* slow=head;
+    ListNode* fast=head;
+
+    while(fast!=NULL && fast->next != NULL)
+    {
+        slow=slow->next;
+        fast=fast->next->next;
+    };
+    //  now slow is the middle node;
+    // reverse the second half
+    ListNode* previous=NULL;
+    ListNode*  temp=slow;
+    while(temp!=NULL)
+
+    {
+        ListNode* front= temp->next;
+        temp->next= previous;
+        previous=temp;
+        temp=front;
+
+    }
+    // find the max twin sum
+    int maxSum=0;
+    int tempSum=0;
+   ListNode* first=head;
+
+   ListNode* second= previous; //head of the reversed second half
+   while(second != NULL)
+   {
+    tempSum = first->val+second->val;
+    maxSum=max(maxSum,tempSum);
+    second=second->next;
+    first=first->next;
+   }
+     return maxSum;   
     };
 };
