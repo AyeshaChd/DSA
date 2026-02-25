@@ -10,23 +10,17 @@ class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 
-        ListNode* tempA=headA;
-        ListNode* tempB=headB;
-        if(headA == NULL || headB==NULL )
-       return NULL;
-
-       while(tempA != NULL )
-       {
-         while( tempB!= NULL)
-         {
-           if(tempA== tempB ) return tempA;
-               tempB=tempB->next;
-       }
-       tempA=tempA->next;
-       tempB=headB;
-       }
-
-        return NULL;  
+         // Two pointers - O(m+n), O(1)
+        ListNode* a = headA;
+        ListNode* b = headB;
+        // since intersection always exists
+        // traverse both lists by changing heads once null 
+        // so that both pointers land at null
+        while(a!=b){
+            a = a == NULL? headB:a->next;
+            b = b == NULL ? headA: b->next;
+        }
+        return a; // or b as both will be intersection  
     }
       
       
