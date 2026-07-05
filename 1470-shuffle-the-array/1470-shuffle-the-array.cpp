@@ -4,13 +4,16 @@ public:
         
         int k=0;
         int j= n;
-        vector<int>res;
+        int index=0;
+        vector<int>res(2*n);
         for(int i=0; i<n ;i++ )
         {
-            res.push_back(nums[k]);
+            res[index]=nums[k];
             k++;
-            res.push_back(nums[j]);
+            index++;
+            res[index]=nums[j];
             j++;
+            index++;
             
         };
         return res;
