@@ -14,12 +14,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/AyeshaChd/DSA/tree/master/0344-reverse-string) |
+| [0412-fizz-buzz](https://github.com/AyeshaChd/DSA/tree/master/0412-fizz-buzz) |
 | [0771-jewels-and-stones](https://github.com/AyeshaChd/DSA/tree/master/0771-jewels-and-stones) |
 | [1768-merge-strings-alternately](https://github.com/AyeshaChd/DSA/tree/master/1768-merge-strings-alternately) |
 | [2011-final-value-of-variable-after-performing-operations](https://github.com/AyeshaChd/DSA/tree/master/2011-final-value-of-variable-after-performing-operations) |
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/AyeshaChd/DSA/tree/master/0412-fizz-buzz) |
 | [1929-concatenation-of-array](https://github.com/AyeshaChd/DSA/tree/master/1929-concatenation-of-array) |
 | [2011-final-value-of-variable-after-performing-operations](https://github.com/AyeshaChd/DSA/tree/master/2011-final-value-of-variable-after-performing-operations) |
 ## Two Pointers
@@ -41,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/AyeshaChd/DSA/tree/master/0412-fizz-buzz) |
 | [1512-number-of-good-pairs](https://github.com/AyeshaChd/DSA/tree/master/1512-number-of-good-pairs) |
 ## Counting
 |  |
