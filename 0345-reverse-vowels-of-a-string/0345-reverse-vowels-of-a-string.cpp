@@ -15,9 +15,8 @@ public:
         while(left < right)
         {
             if(! isVowel(s[left])) left++;
-            if(! isVowel(s[right])) right--;
-            if(isVowel(s[left]) && isVowel(s[right]))
-            {
+           else if(! isVowel(s[right])) right--;
+           else {
                temp= s[left];
                s[left]=s[right];
                s[right]= temp;
