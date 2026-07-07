@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/AyeshaChd/DSA/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/AyeshaChd/DSA/tree/master/0344-reverse-string) |
 | [0412-fizz-buzz](https://github.com/AyeshaChd/DSA/tree/master/0412-fizz-buzz) |
 | [0771-jewels-and-stones](https://github.com/AyeshaChd/DSA/tree/master/0771-jewels-and-stones) |
@@ -34,10 +35,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/AyeshaChd/DSA/tree/master/0242-valid-anagram) |
 | [0977-squares-of-a-sorted-array](https://github.com/AyeshaChd/DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/AyeshaChd/DSA/tree/master/0242-valid-anagram) |
 | [0771-jewels-and-stones](https://github.com/AyeshaChd/DSA/tree/master/0771-jewels-and-stones) |
 | [1512-number-of-good-pairs](https://github.com/AyeshaChd/DSA/tree/master/1512-number-of-good-pairs) |
 ## Math
