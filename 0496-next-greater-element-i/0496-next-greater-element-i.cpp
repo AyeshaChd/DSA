@@ -16,7 +16,7 @@ public:
            
         };
         for (int i = 0; i < nums1.size(); i++) {
-                // cout<<hashmap[nums1[i]]<<endl;
+              
                 ans.push_back(hashmap[nums1[i]]);
                 cout<<nums1[i]<<":"<<hashmap[nums1[i]]<<endl;
             };
