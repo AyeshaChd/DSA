@@ -23,7 +23,9 @@ public:
              };
             //6.If the fully built clone matches the original string, we found a pattern!
              if(temp==s)return true;
-            
+            // Finding divisors total work: O(√N)
+// Building and comparing strings inside: O(N)
+// Total Multiplied: O(N × √N) = O(N √N)
 
 
         };
