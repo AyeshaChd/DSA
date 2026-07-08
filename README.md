@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/AyeshaChd/DSA/tree/master/0283-move-zeroes) |
+| [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
 | [0977-squares-of-a-sorted-array](https://github.com/AyeshaChd/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1470-shuffle-the-array](https://github.com/AyeshaChd/DSA/tree/master/1470-shuffle-the-array) |
 | [1512-number-of-good-pairs](https://github.com/AyeshaChd/DSA/tree/master/1512-number-of-good-pairs) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0205-isomorphic-strings](https://github.com/AyeshaChd/DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/AyeshaChd/DSA/tree/master/0242-valid-anagram) |
+| [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
 | [0771-jewels-and-stones](https://github.com/AyeshaChd/DSA/tree/master/0771-jewels-and-stones) |
 | [1512-number-of-good-pairs](https://github.com/AyeshaChd/DSA/tree/master/1512-number-of-good-pairs) |
 ## Math
@@ -69,4 +71,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/AyeshaChd/DSA/tree/master/0392-is-subsequence) |
+## Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
