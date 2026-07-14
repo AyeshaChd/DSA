@@ -67,3 +67,152 @@
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= k &lt;= 10<sup>9</sup></code></li>
 </ul>
+explation oflast two conditins in answer:
+The formula we need is:
+
+1 + 2 + 3 + ... + operation
+
+For example, if:
+
+operation = 5
+
+then:
+
+1 + 2 + 3 + 4 + 5 = 15
+
+The shortcut formula is:
+
+operation × (operation + 1) / 2
+
+For 5:
+
+5 × 6 / 2 = 15
+
+Now the problem is:
+
+In programming, we are using modulo:
+
+1000000007
+
+and numbers can become very large.
+
+So instead of doing:
+
+operation * (operation + 1) / 2
+
+we divide by 2 before multiplying to avoid overflow.
+
+Case 1: operation is even
+
+Code:
+
+if(operation % 2 == 0)
+{
+    long long a = (operation / 2) % M;
+    long long b = (operation + 1) % M;
+
+    return (a * b) % M;
+}
+
+operation % 2 == 0 means:
+
+operation is an even number (can be divided by 2)
+
+Example:
+
+operation = 6
+
+Formula:
+
+6 × 7 / 2
+
+Instead of:
+
+(6 × 7) / 2
+
+we do:
+
+(6 / 2) × 7
+
+which is:
+
+3 × 7 = 21
+
+So:
+
+a = operation / 2
+
+means:
+
+a = 6 / 2 = 3
+
+and:
+
+b = operation + 1
+
+means:
+
+b = 7
+
+Answer:
+
+3 × 7 = 21
+Case 2: operation is odd
+
+Example:
+
+operation = 5
+
+Formula:
+
+5 × 6 / 2
+
+Here operation cannot be divided by 2.
+
+So divide the other number:
+
+(5 × 6) / 2
+
+becomes:
+
+5 × (6 / 2)
+
+which is:
+
+5 × 3 = 15
+
+Code:
+
+long long a = operation % M;
+long long b = ((operation + 1) / 2) % M;
+
+return (a * b) % M;
+
+Means:
+
+a = 5
+
+b = (5+1)/2
+  = 6/2
+  = 3
+
+Answer:
+
+5 × 3 = 15
+Why do we check even/odd?
+
+Because we want to divide by 2 before multiplication.
+
+If we do:
+
+operation * (operation+1)
+
+first, the number can become too big and overflow.
+
+So we safely divide one side first:
+
+Even operation:
+(operation/2) × (operation+1)
+
+Odd operation:
+operation × ((operation+1)/2)
