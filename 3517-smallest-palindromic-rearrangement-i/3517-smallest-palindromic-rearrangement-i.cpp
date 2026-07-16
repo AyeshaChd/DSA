@@ -12,7 +12,7 @@ public:
         reverse(rev.begin(),rev.end());
          cout<<"rev:"<<rev; 
          cout<<"m:"<<m;
-        if(s.size()%2==1) half+=s[m]; // append middle char as is if n is odd
+        if(s.size()%2==1) half+=s[m];  // m for even is simple but when m is send as index of s  as s[m] it shows middle of odd  // Appends middle character s[2] ('b') to half// append middle char as is if n is odd 
         return half + rev;   // concatenate
         
     }
