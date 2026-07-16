@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/AyeshaChd/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
 | [0643-maximum-average-subarray-i](https://github.com/AyeshaChd/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0704-binary-search](https://github.com/AyeshaChd/DSA/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/AyeshaChd/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1470-shuffle-the-array](https://github.com/AyeshaChd/DSA/tree/master/1470-shuffle-the-array) |
 | [1512-number-of-good-pairs](https://github.com/AyeshaChd/DSA/tree/master/1512-number-of-good-pairs) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/AyeshaChd/DSA/tree/master/0268-missing-number) |
+| [0704-binary-search](https://github.com/AyeshaChd/DSA/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
 | ------- |
