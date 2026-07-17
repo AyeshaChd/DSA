@@ -1,14 +1,17 @@
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
-        unordered_map<int,int>mp;
-        for(int i=0;i<nums.size();i++)
+        int left=0;int right=nums.size()-1;
+        while(left<=right)
+
         {
-            mp[nums[i]]=i;
-        };
-        if(mp.find(target)!=mp.end())
-        {
-            return mp[target];
+            int mid=left+(right-left)/2;
+            if(nums[mid]==target)return mid;
+            
+            if(nums[mid]<target) left=mid+1;
+            if(nums[mid]>target)right=mid-1;
+
+
         }
         return -1;
     }
