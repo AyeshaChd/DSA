@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/AyeshaChd/DSA/tree/master/0035-search-insert-position) |
 | [0268-missing-number](https://github.com/AyeshaChd/DSA/tree/master/0268-missing-number) |
+| [0278-first-bad-version](https://github.com/AyeshaChd/DSA/tree/master/0278-first-bad-version) |
 | [0704-binary-search](https://github.com/AyeshaChd/DSA/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
@@ -159,4 +160,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/AyeshaChd/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/AyeshaChd/DSA/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
