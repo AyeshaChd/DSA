@@ -6,7 +6,7 @@ public:
 
         for(int i=0 ; i<s.length();i++)
         {
-            if(!res.empty() && abs(res.back()-s[i])==32)
+            if(!res.empty() && (res.back()-s[i]==32  || res.back()-s[i]== -32))
             {
                 res.pop_back();
             }
