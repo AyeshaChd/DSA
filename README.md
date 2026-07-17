@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/AyeshaChd/DSA/tree/master/0412-fizz-buzz) |
 | [0459-repeated-substring-pattern](https://github.com/AyeshaChd/DSA/tree/master/0459-repeated-substring-pattern) |
 | [0771-jewels-and-stones](https://github.com/AyeshaChd/DSA/tree/master/0771-jewels-and-stones) |
+| [0844-backspace-string-compare](https://github.com/AyeshaChd/DSA/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AyeshaChd/DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AyeshaChd/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1544-make-the-string-great](https://github.com/AyeshaChd/DSA/tree/master/1544-make-the-string-great) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/AyeshaChd/DSA/tree/master/0412-fizz-buzz) |
+| [0844-backspace-string-compare](https://github.com/AyeshaChd/DSA/tree/master/0844-backspace-string-compare) |
 | [1929-concatenation-of-array](https://github.com/AyeshaChd/DSA/tree/master/1929-concatenation-of-array) |
 | [2011-final-value-of-variable-after-performing-operations](https://github.com/AyeshaChd/DSA/tree/master/2011-final-value-of-variable-after-performing-operations) |
 | [2390-removing-stars-from-a-string](https://github.com/AyeshaChd/DSA/tree/master/2390-removing-stars-from-a-string) |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/AyeshaChd/DSA/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/AyeshaChd/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/AyeshaChd/DSA/tree/master/0392-is-subsequence) |
+| [0844-backspace-string-compare](https://github.com/AyeshaChd/DSA/tree/master/0844-backspace-string-compare) |
 | [0977-squares-of-a-sorted-array](https://github.com/AyeshaChd/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/AyeshaChd/DSA/tree/master/1768-merge-strings-alternately) |
 ## Sorting
@@ -121,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/AyeshaChd/DSA/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/AyeshaChd/DSA/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
+| [0844-backspace-string-compare](https://github.com/AyeshaChd/DSA/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/AyeshaChd/DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1544-make-the-string-great](https://github.com/AyeshaChd/DSA/tree/master/1544-make-the-string-great) |
 | [2390-removing-stars-from-a-string](https://github.com/AyeshaChd/DSA/tree/master/2390-removing-stars-from-a-string) |
