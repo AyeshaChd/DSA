@@ -1,6 +1,8 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
+        // Kadane's Algorithm 
+        // A Simple Analogy: The Train Ride
         int max= nums[0];
         int current_max=nums[0];
         if(nums.size()==1)return nums[0];
