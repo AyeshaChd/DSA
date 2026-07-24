@@ -5,7 +5,7 @@ public:
         // string sub=doubled.substr(1,doubled.size()-2);
         // return sub.find(s)!=string::npos;
         // brute force
-        int n=s.size();  
+        int n=s.size();
         //1. Loop through every possible pattern length, up to half the string
         for (int len=1; len<= n/2; len++) 
         {  
