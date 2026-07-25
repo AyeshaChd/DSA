@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
 | [0643-maximum-average-subarray-i](https://github.com/AyeshaChd/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/AyeshaChd/DSA/tree/master/0704-binary-search) |
+| [0705-design-hashset](https://github.com/AyeshaChd/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/AyeshaChd/DSA/tree/master/0706-design-hashmap) |
 | [0977-squares-of-a-sorted-array](https://github.com/AyeshaChd/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1470-shuffle-the-array](https://github.com/AyeshaChd/DSA/tree/master/1470-shuffle-the-array) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/AyeshaChd/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/AyeshaChd/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
+| [0705-design-hashset](https://github.com/AyeshaChd/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/AyeshaChd/DSA/tree/master/0706-design-hashmap) |
 | [0771-jewels-and-stones](https://github.com/AyeshaChd/DSA/tree/master/0771-jewels-and-stones) |
 | [1512-number-of-good-pairs](https://github.com/AyeshaChd/DSA/tree/master/1512-number-of-good-pairs) |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/AyeshaChd/DSA/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/AyeshaChd/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/AyeshaChd/DSA/tree/master/0303-range-sum-query-immutable) |
+| [0705-design-hashset](https://github.com/AyeshaChd/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/AyeshaChd/DSA/tree/master/0706-design-hashmap) |
 | [1472-design-browser-history](https://github.com/AyeshaChd/DSA/tree/master/1472-design-browser-history) |
 ## Queue
@@ -205,12 +208,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/AyeshaChd/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/AyeshaChd/DSA/tree/master/0706-design-hashmap) |
 | [1472-design-browser-history](https://github.com/AyeshaChd/DSA/tree/master/1472-design-browser-history) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/AyeshaChd/DSA/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Hash Function
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/AyeshaChd/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/AyeshaChd/DSA/tree/master/0706-design-hashmap) |
 ## Prefix Sum
 |  |
