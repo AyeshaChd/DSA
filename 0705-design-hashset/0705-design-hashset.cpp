@@ -9,10 +9,11 @@ public:
     
     void add(int key) {
         // v.insert(key);
-    //     for(int i=0;i<v.size();i++)
-    // {
-    //     if(v[i]==key) return;
-    // }
+        //if already exist
+        for(int i=0;i<v.size();i++)
+    {
+        if(v[i]==key) return;
+    }
     
         v.push_back(key);
     }
