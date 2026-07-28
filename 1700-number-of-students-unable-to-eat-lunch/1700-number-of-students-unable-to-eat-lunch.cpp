@@ -20,6 +20,11 @@ public:
      q.push(q.front());
      q.pop();
      count++;
+     // If everyone has been rotated once and no one took the sandwich,
+            // no more sandwiches can be served.
+            // count == q.size().
+
+// This means every student currently in the queue has had one chance, and none wanted the sandwich on top. Since the sandwich never changes until someone takes it, the process is stuck forever.
      if(count==q.size())
      break;
     }
