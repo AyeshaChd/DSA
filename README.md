@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/AyeshaChd/DSA/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/AyeshaChd/DSA/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/AyeshaChd/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/AyeshaChd/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/AyeshaChd/DSA/tree/master/0496-next-greater-element-i) |
 | [0844-backspace-string-compare](https://github.com/AyeshaChd/DSA/tree/master/0844-backspace-string-compare) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/AyeshaChd/DSA/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/AyeshaChd/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/AyeshaChd/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/AyeshaChd/DSA/tree/master/0303-range-sum-query-immutable) |
 | [0705-design-hashset](https://github.com/AyeshaChd/DSA/tree/master/0705-design-hashset) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/AyeshaChd/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/AyeshaChd/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/AyeshaChd/DSA/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [2073-time-needed-to-buy-tickets](https://github.com/AyeshaChd/DSA/tree/master/2073-time-needed-to-buy-tickets) |
