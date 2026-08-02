@@ -207,12 +207,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/AyeshaChd/DSA/tree/master/0303-range-sum-query-immutable) |
 | [0705-design-hashset](https://github.com/AyeshaChd/DSA/tree/master/0705-design-hashset) |
 | [0706-design-hashmap](https://github.com/AyeshaChd/DSA/tree/master/0706-design-hashmap) |
+| [0933-number-of-recent-calls](https://github.com/AyeshaChd/DSA/tree/master/0933-number-of-recent-calls) |
 | [1472-design-browser-history](https://github.com/AyeshaChd/DSA/tree/master/1472-design-browser-history) |
 ## Queue
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/AyeshaChd/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/AyeshaChd/DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0933-number-of-recent-calls](https://github.com/AyeshaChd/DSA/tree/master/0933-number-of-recent-calls) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/AyeshaChd/DSA/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [2073-time-needed-to-buy-tickets](https://github.com/AyeshaChd/DSA/tree/master/2073-time-needed-to-buy-tickets) |
 ## Linked List
@@ -239,5 +241,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0933-number-of-recent-calls](https://github.com/AyeshaChd/DSA/tree/master/0933-number-of-recent-calls) |
 | [1472-design-browser-history](https://github.com/AyeshaChd/DSA/tree/master/1472-design-browser-history) |
 <!---LeetCode Topics End-->
