@@ -11,6 +11,10 @@ public:
         
         while(! q.empty() && q.front() < t-3000)
         {
+           
+           
+           
+           
             q.pop();
         }
         return q.size();
