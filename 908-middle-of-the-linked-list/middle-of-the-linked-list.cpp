@@ -11,68 +11,35 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
+        // ---------Brute force----
+    //   ListNode* temp=head;
+    //   int count=0;
+    //   if(head == nullptr || head->next==nullptr) return head;
+    //   while(temp != nullptr)
+    //   {
+    //     count++;
+    //     temp=temp->next;
+    //   }
 
-        // --------------------my approach
-        // ListNode* temp = head;
-      
-        // int totalLength = 0;
-        // int count = 0;
-        //         if (head == NULL || head->next == NULL)
-        //     return head;
-        // while (temp != NULL) {
-        //       totalLength ++;
-        //       temp=temp->next;
-        // };
-       
-        // temp=head;
-        // while (temp != NULL) {
-          
-        //     count++;
-            
-        //     if (totalLength % 2 == 0) {
-             
-        //         if (count == (totalLength / 2) + 1) {
-                   
-        //            cout<<temp->val;
-        //             return temp;
-
-        //         };
-        //     };
-        //     if (totalLength % 2 != 0) {
-              
-        //         if (count == (totalLength + 1) / 2) {
-        //             return temp;
-                  
-        //         };
-               
-        //     };
-        //      temp=temp->next;
-        // };
-        // return head;
-
-        // same concept as mine but only improved version
-
-    if (head == NULL || head->next == NULL)
-        return head;
-
-    ListNode* temp = head;
-    int totalLength = 0;
-
-    // Count length
-    while (temp != NULL) {
-        totalLength++;
-        temp = temp->next;
+    //   int middle=count/2 + 1;
+    //   temp=head;
+    //   count=0;
+    //    while(temp != nullptr)
+    //   {
+    //     count++;
+    //     if(count == middle) return temp;
+    //     temp=temp->next;
+    //   }
+    //   return nullptr;
+    // ------------optimal
+     if (head== nullptr || head->next== nullptr) return head;
+       ListNode* slow=head; ListNode* fast=head;
+       while(fast != nullptr && fast->next != nullptr)
+       {
+        slow= slow->next;
+        fast=fast->next->next;
+       }
+       return slow;
     }
-
-    int middle = (totalLength / 2) + 1; // it gives middle of both even or odd;
-    temp = head;
-
-    for (int i = 1; i < middle; i++) {
-        temp = temp->next;
-    }
-
-    return temp;
-
-
-    };
+    
 };
